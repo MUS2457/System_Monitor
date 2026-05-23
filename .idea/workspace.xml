@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca4d78a5-1f19-4c59-badb-8b37fccd4e9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/System_Monitor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ANALYSIS/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/collector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/display.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/scheduler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/threshols.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UTILS/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UTILS/convert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UTILS/time_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CORE/collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/CORE/collector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CORE/scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/CORE/scheduler.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +35,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.collector.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
