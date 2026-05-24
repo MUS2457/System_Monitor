@@ -1,5 +1,6 @@
 import psutil
 import time
+from DATA.models import Snapshot
 
 def collect_metrics():
     timestamp = int(time.time())
@@ -14,11 +15,6 @@ def collect_metrics():
     net_up = network.bytes_sent
     net_down = network.bytes_recv
 
-    return {
-        "timestamp": timestamp,
-        "cpu": cpu,
-        "ram": ram,
-        "disk": disk,
-        "net_up": net_up,
-        "net_down": net_down
-    }
+    return Snapshot(timestamp, cpu, ram, disk, net_up, net_down)
+
+print(collect_metrics())

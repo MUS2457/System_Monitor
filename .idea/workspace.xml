@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca4d78a5-1f19-4c59-badb-8b37fccd4e9d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CORE/storage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CORE/collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/CORE/collector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CORE/display.py" beforeDir="false" afterPath="$PROJECT_DIR$/CORE/display.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CORE/scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/CORE/scheduler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="3E75FtqrseoB2rkKgO4yPDebcy1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,6 +39,11 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.collector.executor": "Run",
+    "Python.display.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.models.executor": "Run",
+    "Python.scheduler.executor": "Run",
+    "Python.storage.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
