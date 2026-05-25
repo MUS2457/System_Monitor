@@ -26,13 +26,15 @@ class Snapshot :
 
 
 class Metrics :
-    def __init__(self, time, cpu, ram, disk, net_up, net_down):
+    def __init__(self, time, cpu, ram, disk, net_up, net_down, up_speed, down_speed):
         self.time = time
         self.cpu = cpu
         self.ram = ram
         self.disk = disk
         self.net_up = net_up
         self.net_down = net_down
+        self.up_speed = up_speed
+        self.down_speed = down_speed
 
     def __str__(self):
         dt = datetime.fromtimestamp(self.time).strftime("%Y-%m-%d %H:%M:%S")
@@ -46,7 +48,9 @@ class Metrics :
             f"Disk free: {int(self.disk[2] / (1024 ** 2))} MiB | "
             f"Network up: {int(self.net_up / 10 ** 6)} MB | "
             f"Network down: {int(self.net_down / 10 ** 6)} MB"
+
         )
+
 
 
 
