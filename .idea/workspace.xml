@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca4d78a5-1f19-4c59-badb-8b37fccd4e9d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CORE/history.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CORE/display.py" beforeDir="false" afterPath="$PROJECT_DIR$/CORE/display.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CORE/scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/CORE/scheduler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CORE/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/CORE/storage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,65 @@
     <commands />
     <urls />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.6479601190178202E-99" />
+      <entry key="S2" value="2.2684429420864426E-25" />
+      <entry key="S5" value="1.3876857992130745E-10" />
+      <entry key="S10" value="1.1780007637879249E-5" />
+      <entry key="S30" value="0.022764005165099976" />
+      <entry key="S60" value="0.15408583794068043" />
+      <entry key="M2" value="0.4569554076489126" />
+      <entry key="M5" value="2.717373808429685" />
+      <entry key="M10" value="11.492133298706465" />
+      <entry key="M15" value="20.148055019218386" />
+      <entry key="M30" value="36.323344212430605" />
+      <entry key="H1" value="49.203419922560165" />
+      <entry key="H2" value="57.38024397627055" />
+      <entry key="H4" value="61.99429043879241" />
+      <entry key="D1" value="66.13709178477473" />
+      <entry key="W1" value="66.87600703823199" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.00000000000023" />
+      <entry key="S60" value="1.0000009072701495" />
+      <entry key="M2" value="1.002265100164873" />
+      <entry key="M5" value="1.3019749085114773" />
+      <entry key="M10" value="2.624131684421261" />
+      <entry key="M15" value="3.864321491277541" />
+      <entry key="M30" value="6.068626888254208" />
+      <entry key="H1" value="7.751189092023006" />
+      <entry key="H2" value="8.794078826687217" />
+      <entry key="H4" value="9.375138473467306" />
+      <entry key="D1" value="9.892676042043394" />
+      <entry key="W1" value="9.984588245448835" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="5.290839538897726E-7" />
+      <entry key="MS500" value="0.055552667572910636" />
+      <entry key="S2" value="0.4854854621711755" />
+      <entry key="S5" value="0.7489804673372951" />
+      <entry key="S10" value="0.8654477655375914" />
+      <entry key="S30" value="0.9753450670093845" />
+      <entry key="S60" value="1.1289385995262209" />
+      <entry key="M2" value="1.4449695651115748" />
+      <entry key="M5" value="4.007689380109287" />
+      <entry key="M10" value="14.099411767952697" />
+      <entry key="M15" value="23.99417823498144" />
+      <entry key="M30" value="42.37656268017674" />
+      <entry key="H1" value="56.944453031866395" />
+      <entry key="H2" value="66.16847687306486" />
+      <entry key="H4" value="71.36629078778222" />
+      <entry key="D1" value="76.02921274979592" />
+      <entry key="W1" value="76.86051517207697" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -42,6 +100,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.collector.executor": "Run",
     "Python.display.executor": "Run",
+    "Python.history.executor": "Run",
     "Python.main.executor": "Run",
     "Python.models.executor": "Run",
     "Python.scheduler.executor": "Run",
