@@ -1,12 +1,9 @@
-import time
 import os
-from CORE import storage
+from CORE import scheduler
 
 
 def display_latest_metrics():
-    for collection in storage.buffer_metrics():
+    for metrics in scheduler.scheduler() :
         os.system("cls" if os.name == "nt" else "clear")  # "nt" == windows os , n = ("cls","clear) clear terminal
-        print(collection[-1])                              # cmd win == n[0] , others = n[1]
-        time.sleep(4)
+        print(metrics)                                        # cmd win == n[0] , others = n[1]
 
-print(display_latest_metrics())

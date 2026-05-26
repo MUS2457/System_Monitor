@@ -1,15 +1,15 @@
-import storage
-
-
-def history_viewer(n=5):
-    
-    buffer = storage.buffer_metrics()
-
-    if not buffer:
-        print("No history yet, wait for data to be collected")
+def view_history(collection, n = 5) :
+    if not collection:
+        print("please wait until data been collected.")
         return
 
-    count = min(n, len(buffer))
+    count = min(n, len(collection))
 
-    for metric in buffer[-count:]:
-        print(metric)
+    for metics in collection[-count:] :
+
+        print(metics)
+
+
+
+
+

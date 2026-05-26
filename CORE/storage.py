@@ -1,12 +1,6 @@
-from CORE import scheduler
+metrics_buffer = []
 
-def buffer_metrics():
-    collection = []
+def buffer_metrics(metrics):
+    metrics_buffer.append(metrics)
 
-    for metrics in scheduler.scheduler():
-        collection.append(metrics)
-        yield collection
 
-from history import history_viewer
-
-history_viewer()
