@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca4d78a5-1f19-4c59-badb-8b37fccd4e9d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/System_Monitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/System_Monitor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ca4d78a5-1f19-4c59-badb-8b37fccd4e9d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,61 +26,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.1643543210550746" />
-      <entry key="MS500" value="2.7174860368490936" />
-      <entry key="S2" value="6.005571644264416" />
-      <entry key="S5" value="9.871185534312778" />
-      <entry key="S10" value="14.935466724628858" />
-      <entry key="S30" value="23.662508967233897" />
-      <entry key="S60" value="27.34832833879686" />
-      <entry key="M2" value="29.65842184963293" />
-      <entry key="M5" value="32.91113159937596" />
-      <entry key="M10" value="39.30243897775609" />
-      <entry key="M15" value="47.43367034166313" />
-      <entry key="M30" value="73.28578281795347" />
-      <entry key="H1" value="112.55979992734991" />
-      <entry key="H2" value="152.1030190648182" />
-      <entry key="H4" value="181.33690002067283" />
-      <entry key="D1" value="212.7671406217046" />
-      <entry key="W1" value="218.9453581817652" />
+      <entry key="MS100" value="1.0000000004873555" />
+      <entry key="MS500" value="1.0428813616079968" />
+      <entry key="S2" value="3.2186218589020474" />
+      <entry key="S5" value="7.063606058628105" />
+      <entry key="S10" value="11.242454649575446" />
+      <entry key="S30" value="23.65048687913511" />
+      <entry key="S60" value="34.79138686801975" />
+      <entry key="M2" value="44.30265885868728" />
+      <entry key="M5" value="53.527721935964955" />
+      <entry key="M10" value="62.10723890040932" />
+      <entry key="M15" value="70.92196324375244" />
+      <entry key="M30" value="97.43930777456093" />
+      <entry key="H1" value="137.19066022446802" />
+      <entry key="H2" value="177.19399070549937" />
+      <entry key="H4" value="206.79936740898088" />
+      <entry key="D1" value="238.66266764741718" />
+      <entry key="W1" value="244.9300153644192" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.9526383338248167E-8" />
-      <entry key="MS500" value="0.028716027608720298" />
-      <entry key="S2" value="0.4116528159140906" />
-      <entry key="S5" value="0.7011524182191072" />
-      <entry key="S10" value="0.8373484449254727" />
-      <entry key="S30" value="0.9425450611410481" />
-      <entry key="S60" value="0.9713892664327871" />
-      <entry key="M2" value="1.0250949967920355" />
-      <entry key="M5" value="1.5780324701893498" />
-      <entry key="M10" value="3.0506663833731436" />
-      <entry key="M15" value="4.996826805751955" />
-      <entry key="M30" value="11.672801182304445" />
-      <entry key="H1" value="21.717308328376042" />
-      <entry key="H2" value="31.34529567325485" />
-      <entry key="H4" value="38.20144075550779" />
-      <entry key="D1" value="45.374476551478025" />
-      <entry key="W1" value="46.76352181712216" />
+      <entry key="MS100" value="6.219064388967258E-185" />
+      <entry key="MS500" value="1.441268884145376E-37" />
+      <entry key="S2" value="6.161497160364492E-10" />
+      <entry key="S5" value="2.0695432223824756E-4" />
+      <entry key="S10" value="0.014385907070402174" />
+      <entry key="S30" value="0.24320871487213838" />
+      <entry key="S60" value="0.4934371069402359" />
+      <entry key="M2" value="0.7306062221951624" />
+      <entry key="M5" value="1.3781092135034576" />
+      <entry key="M10" value="2.8508775691051085" />
+      <entry key="M15" value="4.776211284723127" />
+      <entry key="M30" value="11.412208702554446" />
+      <entry key="H1" value="21.47352319412722" />
+      <entry key="H2" value="31.168867661239243" />
+      <entry key="H4" value="38.09378002541263" />
+      <entry key="D1" value="45.35313880687553" />
+      <entry key="W1" value="46.76037961874676" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.1081205238528535" />
-      <entry key="MS500" value="2.65850464566379" />
-      <entry key="S2" value="6.132810659897909" />
-      <entry key="S5" value="10.310316408288157" />
-      <entry key="S10" value="15.589916771676494" />
-      <entry key="S30" value="24.525849020569648" />
-      <entry key="S60" value="28.27702563624053" />
-      <entry key="M2" value="30.6592320567177" />
-      <entry key="M5" value="34.46698023941128" />
-      <entry key="M10" value="42.32747248466639" />
-      <entry key="M15" value="52.40282321901144" />
-      <entry key="M30" value="84.92954762182632" />
-      <entry key="H1" value="134.25206060719577" />
-      <entry key="H2" value="183.43080596163537" />
-      <entry key="H4" value="219.5278053606842" />
-      <entry key="D1" value="258.13954899925704" />
-      <entry key="W1" value="265.70857587474836" />
+      <entry key="MS100" value="0.9526379984991683" />
+      <entry key="MS500" value="1.0327053758965734" />
+      <entry key="S2" value="3.2096813133220743" />
+      <entry key="S5" value="7.054467795134739" />
+      <entry key="S10" value="11.244854227633702" />
+      <entry key="S30" value="23.865989916795723" />
+      <entry key="S60" value="35.25789023334407" />
+      <entry key="M2" value="45.01272026872177" />
+      <entry key="M5" value="54.88497737191262" />
+      <entry key="M10" value="64.93338719900093" />
+      <entry key="M15" value="75.67119763794501" />
+      <entry key="M30" value="108.82286181522743" />
+      <entry key="H1" value="158.6392826383174" />
+      <entry key="H2" value="208.3453807253138" />
+      <entry key="H4" value="244.882607937327" />
+      <entry key="D1" value="284.01373361494115" />
+      <entry key="W1" value="291.69009007380794" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -94,35 +91,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.collector.executor&quot;: &quot;Run&quot;,
-    &quot;Python.display.executor&quot;: &quot;Run&quot;,
-    &quot;Python.history.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.models.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scheduler.executor&quot;: &quot;Run&quot;,
-    &quot;Python.storage.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.collector.executor": "Run",
+    "Python.display.executor": "Run",
+    "Python.history.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.models.executor": "Run",
+    "Python.scheduler.executor": "Run",
+    "Python.storage.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/musta/OneDrive/Documents/coding/System_Monitor",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\musta\OneDrive\Documents\coding\System_Monitor\CORE" />
