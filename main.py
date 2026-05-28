@@ -1,5 +1,4 @@
-def calcul(n,b) :
-    print(n*b)
+from CORE.history import read_history
 
-
-print(calcul(1,3))
+if __name__ == "__main__":
+    read_history()

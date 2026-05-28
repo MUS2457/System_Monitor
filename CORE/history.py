@@ -1,3 +1,5 @@
+import os
+
 def view_history(collection, n = 5) :
     if not collection:
         print("please wait until data been collected.")
@@ -10,7 +12,7 @@ def view_history(collection, n = 5) :
         print(metics)
 
 
-def export_history(collection, filename="history.log"):
+def export_history(collection, filename = "history.log"):
     if not collection:
         print("No history to export.")
         return
@@ -35,6 +37,24 @@ def export_history(collection, filename="history.log"):
             file.write("---------------------------\n")
 
 
+def read_history(filename="history.log"):
+
+    if not os.path.isfile(filename):
+        print("file not found, please view history first.")
+        return
+
+    with open(filename, "r", encoding="utf-8") as file:
+        content = file.read()
+
+    if not content.strip():
+        print("history file is empty.")
+        return
+
+    print(content)
+
+
+if __name__ == "__main__":
+    read_history()
 
 
 
