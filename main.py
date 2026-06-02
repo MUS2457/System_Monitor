@@ -44,7 +44,7 @@ def database_tools(conn) :
         
 
 def metrics_menu(Metrics):
-    if Metrics is None:
+    if not Metrics :
         print("No metrics found, run metrics displayer first.")
         return
     
@@ -108,12 +108,13 @@ def metrics_menu(Metrics):
             print("Invalid choice. Try again.")
 
 
-def main() :
-    Metrics = None
+def main() : 
     count = 0
 
     conn = database.create_connection()
     database.create_table(conn)
+
+    Metrics = storage.metrics_buffer
 
     while True :
         print("1. Display metrics in real time")
