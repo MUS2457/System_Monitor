@@ -66,12 +66,13 @@ def show_graph():
             plt.ticks_color("white")
 
             plt.show()
+            print("press 'q', 's' or 'x' to exit")
 
             if select.select([sys.stdin], [], [], 0.2)[0] :
 
                 key = sys.stdin.read(1)
 
-                if key == "q":
+                if key in ("q", "s", "x"):
                     return
                 
             
