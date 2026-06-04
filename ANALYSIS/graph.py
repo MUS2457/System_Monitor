@@ -1,58 +1,82 @@
-from CORE import scheduler
+from CORE.scheduler import scheduler
 import plotext as plt
+import termios
+import sys
+import tty
+import select
 
 def show_graph():
-    cpu_history, ram_history, disk_history = [], [], []
-    x = []
-    MAX_POINTS = 60  
 
-    for i, metric in enumerate(scheduler.scheduler()): # x represent the metricts time each every few seconds (many sleep())
-        x.append(i)  
+    old_settings = termios.tcgetattr(sys.stdin)
 
-        cpu = metric.cpu
-        ram = metric.ram
-        disk = metric.disk[3]  
+    tty.setcbreak(sys.stdin.fileno())
 
-        cpu_history.append(cpu)
-        ram_history.append(ram)
-        disk_history.append(disk)
+    try :
 
-        if len(x) > MAX_POINTS: #limit the gragh for better readability
-            x.pop(0)
-            cpu_history.pop(0)  #remove first element 
-            ram_history.pop(0)
-            disk_history.pop(0)
+        cpu_history, ram_history, disk_history = [], [], []
+        x = []
+        MAX_POINTS = 60  
 
+        for i, metric in enumerate(scheduler()): # x represent the metricts time each every few seconds (many sleep())
+            x.append(i)  
+  
+            cpu = metric.cpu
+            ram = metric.ram
+            disk = metric.disk[3]  
 
-        alert = ""
-        if cpu > 85:
-            alert += "⚠ HIGH CPU "
+            cpu_history.append(cpu)
+            ram_history.append(ram)
+            disk_history.append(disk)
 
-        if ram > 85:
-           alert += "⚠ HIGH RAM "
-
-        if disk > 85:
-           alert += "⚠ HIGH DISK "
-
-        print(alert)
+            if len(x) > MAX_POINTS: #limit the gragh for better readability
+               x.pop(0)
+               cpu_history.pop(0)  #remove first element 
+               ram_history.pop(0)
+               disk_history.pop(0)
 
 
-        plt.clt()  # works as frame by frame illution to make it looks like moving
-        plt.title("Live Metrics Usage (Normalized 0–100%)")
+            alert = ""
+            if cpu > 85:
+                alert += "⚠ HIGH CPU "
+
+            if ram > 85:
+                alert += "⚠ HIGH RAM "
+
+            if disk > 85:
+                alert += "⚠ HIGH DISK "
+
+            print(alert)
+
+
+            plt.clt()  # works as frame by frame illution to make it looks like moving
+            plt.title("Live Metrics Usage (Normalized 0–100%)")
 
       
-        plt.plot(x, cpu_history, label="CPU", color="red")  # points (x, f(x))
-        plt.plot(x, ram_history, label="RAM", color="green")
-        plt.plot(x, disk_history, label="Disk", color="blue")
+            plt.plot(x, cpu_history, label="CPU", color="red")  # points (x, f(x))
+            plt.plot(x, ram_history, label="RAM", color="green")
+            plt.plot(x, disk_history, label="Disk", color="blue")
 
     
-        plt.ylim(0, 100)    # define axes limit 
-        plt.xlim(0, MAX_POINTS)
+            plt.ylim(0, 100)    # define axes limit 
+            plt.xlim(0, MAX_POINTS)
 
 
-        plt.canvas_color("black")  # styling for better view
-        plt.axes_color("white")
-        plt.ticks_color("white")
+            plt.canvas_color("black")  # styling for better view
+            plt.axes_color("white")
+            plt.ticks_color("white")
 
-        plt.show()
-        
+            plt.show()
+
+            if select.select([sys.stdin], [], [], 0.2)[0] :
+
+                key = sys.stdin.read(1)
+
+                if key == "q":
+                    return
+                
+            
+
+    finally:
+        termios.tcsetattr(sys.stdin, termios.TCSADRAIN, old_settings)
+
+  

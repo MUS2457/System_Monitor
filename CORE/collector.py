@@ -17,4 +17,3 @@ def collect_metrics():
 
     return Snapshot(timestamp, cpu, ram, disk, net_up, net_down)
 
-print(collect_metrics())

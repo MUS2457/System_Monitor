@@ -1,4 +1,4 @@
-from CORE import display, history, storage, scheduler
+from CORE import display, history, storage
 from ANALYSIS import metrics_analysis, graph
 from DATA import database
 from UTILS import tool
@@ -20,6 +20,7 @@ def pretty_print(title, data):
 
 
 def database_tools(conn) :
+
     while True :
         print("1. Get lasts Metrics ")
         print("2. Get Metrics date range")
@@ -107,14 +108,36 @@ def metrics_menu(Metrics):
         else:
             print("Invalid choice. Try again.")
 
+def history_menu(collected) :
+    while True :
+        print("1. View history")
+        print("2. Export history to file (log)")
+        print("3. Read history from file (log)")
+        print("4. Return to main menu")
+
+        user = input("Enter a number based on menu ").strip()
+
+        if not user.isdigit() or int(user) not in [1, 2, 3, 4] :
+            print("incorrect choice, enter a valid number ")
+            continue
+
+        elif int(user) == 1 :
+            history.view_history(collected)
+
+        elif int(user) == 2 :
+            history.export_history(collected)
+
+        elif int(user) == 3 :
+            history.read_history()
+
+        elif int(user) == 4 :
+            print("Returning...")
+            return
 
 def main() : 
-    count = 0
-
     conn = database.create_connection()
     database.create_table(conn)
-
-    Metrics = storage.metrics_buffer
+    
 
     while True :
         print("1. Display metrics in real time")
@@ -132,6 +155,8 @@ def main() :
 
         elif int(user) == 1 :
             display.display_latest_metrics()
+            Metrics = storage.metrics_buffer
+            database.insert_table(conn,Metrics)
             
 
         elif int(user) == 2 :
@@ -141,9 +166,10 @@ def main() :
             metrics_menu(Metrics)
 
         elif int(user) == 4 :
-            history.view_history(storage.get_metrics())
+            history_menu(Metrics)
 
         elif int(user) == 5 :
+            print(Metrics)
             database_tools(conn)
 
         elif int(user) == 0 :

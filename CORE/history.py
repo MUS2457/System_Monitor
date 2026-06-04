@@ -2,7 +2,7 @@ import os
 
 def view_history(collection, n = 5) :
     if not collection:
-        print("please wait until data been collected.")
+        print("Run display metrics first for data collection.")
         return
 
     count = min(n, len(collection))
