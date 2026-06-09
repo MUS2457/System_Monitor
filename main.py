@@ -45,9 +45,6 @@ def database_tools(conn) :
         
 
 def metrics_menu(Metrics):
-    if not Metrics :
-        print("No metrics found, run metrics displayer first.")
-        return
     
     analysis = metrics_analysis.MetricsAnalysis(Metrics)
 
@@ -109,6 +106,7 @@ def metrics_menu(Metrics):
             print("Invalid choice. Try again.")
 
 def history_menu(collected) :
+    
     while True :
         print("1. View history")
         print("2. Export history to file (log)")
@@ -137,6 +135,7 @@ def history_menu(collected) :
 def main() : 
     conn = database.create_connection()
     database.create_table(conn)
+    Metrics = None
     
 
     while True :
@@ -163,13 +162,20 @@ def main() :
             graph.show_graph()
 
         elif int(user) == 3 :
+            if Metrics is None :
+                print("No metrics found, run metrics displayer first.")
+                continue
             metrics_menu(Metrics)
 
         elif int(user) == 4 :
+            if not Metrics :
+                print("No metrics found, run metrics displayer first.")
+                continue
+
             history_menu(Metrics)
 
         elif int(user) == 5 :
-            print(Metrics)
+    
             database_tools(conn)
 
         elif int(user) == 0 :

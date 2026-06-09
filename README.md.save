@@ -1,0 +1,86 @@
+# 🖥️ System Monitor (CLI)  
+A real‑time system metrics monitor built with Python, designed for Unix-like environments.  
+This tool collects, displays, analyzes, stores, and visualizes CPU, RAM, and Disk usage using a fully modular backend architecture.
+
+---
+
+## 🚀 Features
+
+### 🔹 Real-Time Metrics Display
+- Live CPU, RAM, and Disk usage
+- Smooth terminal UI using Unix raw mode
+- Non-blocking keyboard input
+- Auto-refreshing metrics buffer
+
+### 🔹 Graph Visualization
+- CPU / RAM / Disk usage graphs
+- Live updates
+- Stop the graph anytime using **q**, **s**, or **x**
+
+### 🔹 Metrics Analysis Engine
+Includes:
+- Threshold detection  
+- Averages  
+- Min/Max  
+- Trend detection  
+- Volatility analysis  
+
+All powered by a dedicated `MetricsAnalysis` class.
+
+### 🔹 History System
+- View collected metrics history  
+- Export history to a `.log` file  
+- Read history back from file  
+
+### 🔹 Database Integration
+- SQLite backend  
+- Save metrics after each display session  
+- Query last metrics  
+- Query metrics by date range  
+
+### 🔹 Modular Architecture
+The project is split into clean, reusable modules:
+
+# 🖥️ System Monitor (CLI)  
+A real‑time system metrics monitor built with Python, designed for Unix-like environments.  
+This tool collects, displays, analyzes, stores, and visualizes CPU, RAM, and Disk usage using a fully modular backend architecture.
+
+---
+
+## 🚀 Features
+
+### 🔹 Real-Time Metrics Display
+- Live CPU, RAM, and Disk usage
+- Smooth terminal UI using Unix raw mode
+- Non-blocking keyboard input
+- Auto-refreshing metrics buffer
+
+### 🔹 Graph Visualization
+- CPU / RAM / Disk usage graphs
+- Live updates
+- Stop the graph anytime using **q**, **s**, or **x**
+
+### 🔹 Metrics Analysis Engine
+Includes:
+- Threshold detection  
+- Averages  
+- Min/Max  
+- Trend detection  
+- Volatility analysis  
+
+All powered by a dedicated `MetricsAnalysis` class.
+
+### 🔹 History System
+- View collected metrics history  
+- Export history to a `.log` file  
+- Read history back from file  
+
+### 🔹 Database Integration
+- SQLite backend  
+- Save metrics after each display session  
+- Query last metrics  
+- Query metrics by date range  
+
+### 🔹 Modular Architecture
+The project is split into clean, reusable modules:
+
